@@ -1,0 +1,266 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+@import url(https://fonts.google.com/specimen/Open+Sans);
+:root{
+--flex: hsl(193, 100%, 96%);
+--flee: hsl(192, 100%, 9%);
+--fly: hsl(208, 11%, 55%);
+--jes:hsl(322, 100%, 66%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-image: url(/images/bg-hero-mobile.svg);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 50%;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+#btn12{
+    width:120px;
+    height:25px;
+    margin-top:30px;
+    margin-right:30px;
+    background-color:white;
+    border-radius: 20px;
+    border: none;
+    font-weight:bold;
+}
+h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+#btn123{
+    margin-top: 50px;
+    width:75%;
+    height: 50px;
+    margin-left: 13%;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--jes);
+}
+.img2 img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.container1{
+    width: 100%;
+    background-color:white;
+}
+.contain1{
+    width: 85%;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 8%;
+    background-color: white;
+    box-shadow:2px 2px 2px 3px whitesmoke;
+    border-radius: 20px;
+}
+.writeup{
+    margin-top: 30px;
+}
+.img3 img{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+#grow{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.grow{
+    width:80%;
+    margin-left: 10%;
+}
+h2{
+    text-align: center;
+}
+.contain2{
+    width: 85%;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 8%;
+    background-color: white;
+    box-shadow:2px 2px 2px 3px whitesmoke;
+    border-radius: 20px;
+}
+.img4 img{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+.contain3{
+    width: 85%;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 8%;
+    background-color: white;
+    box-shadow:2px 2px 2px 3px whitesmoke;
+    border-radius: 20px;
+}
+.img5 img{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+.contain4{
+    width: 85%;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 8%;
+    background-color: white;
+    box-shadow:3px 3px 3px 3px whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+.huddle{
+    padding-top: 150px;
+}
+#build{
+    padding-top: 20px;
+}
+.footer{
+    background-color: var(--flee);
+    color: white;
+    margin-top: -110px;
+    height: 900px;
+}
+h3{
+    margin-top: 30px;
+    padding-left: 8%;
+}
+img{
+    margin-right: 7%;
+}
+header{
+    font-size: 2em;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+#yu{
+    font-size: 1.5em;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+}
+h4{
+    font-size: 2em;
+    margin: 12px;
+    margin-top: -10px;
+}
+@media screen and (min-width:1000px){
+    .container{
+        width: 100%;
+        height: 600px;
+        background-image: url(/images/bg-hero-desktop.svg);
+    }
+    .logo img{
+        width: 70%;
+        height: 30px;
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    #btn12{
+        width: 150px; 
+        height: 50px;
+    }
+    .write{
+        display: flex;
+        justify-content: space-around;
+    }
+    .contain1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .contain2{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .contain3{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .contain4{
+        width: 50%;
+        margin-left: 25%;
+    }
+    #btn123{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .flexis{
+        padding-top: 100px;
+        width: 30%;
+    }
+    .writeup{
+        padding-top: 140px;
+    }
+    .writeup1{
+        padding-top: 140px;
+    }
+    .writeup2{
+        padding-top: 140px;
+    }
+    .writeup3{
+        padding-top: 140px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        height: 500px;
+    }
+    .contact{
+        margin-top: 150px;
+        padding-left: 10%;
+    }
+    .contact1{
+        margin-top: 150px;
+        margin-left: 10%;
+    }
+    .socialmedia{
+        margin-top: 150px;
+        margin-top:5%;
+    }
+    footer{
+        margin-top: 400px;
+    }
+}
+
+
+
+
